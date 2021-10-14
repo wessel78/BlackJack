@@ -1,0 +1,12 @@
+<?php 
+    session_start();
+    unset($_SESSION['session-start']);
+    unset($_SESSION['game-active']);
+    unset($_SESSION['nextcard']);
+    unset($_SESSION['dealercards']);
+    unset($_SESSION['playercards']);
+    unset($_SESSION['dealercards']);
+    unset($_SESSION['cardnumber']);
+    unset($_SESSION['dealer_card_count']);
+    unset($_SESSION['hashed_dealer_card']);
+?>

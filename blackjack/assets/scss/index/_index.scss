@@ -1,0 +1,146 @@
+.main-wrapper {
+    width: 100%;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-wrapper {
+    // height: 500px;
+    width: 100%;
+    max-width: 511px;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+#play-btn {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    font-size: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #6ED36C;
+    border-radius: 5px;
+}
+#play-btn:hover {
+    filter: brightness(80%);
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 5px;
+    display: none;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 130px;
+    background-color: #373737;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #777777;
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-wrapper {
+    width: 100%;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.balance-wrapper {
+    height: 95px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    color: white;
+    font-weight: 200;
+    text-align: center
+}
+
+.balance-wrapper input {
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.balance-wrapper input:disabled {
+    background-color: white;
+}
+
+.min-geld {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #447ACC;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.min-geld:hover {
+    filter: brightness(80%);
+}
+
+.plus-geld {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #E24D4D;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.plus-geld:hover {
+    filter: brightness(80%);
+}
+
+.btn-wrapper {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
